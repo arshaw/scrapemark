@@ -1,0 +1,26 @@
+
+Scrapemark is a super-convenient way to `scrape webpages <http://en.wikipedia.org/wiki/Web_scraping>`_
+for Python.
+It utilizes an HTML-like markup language to extract the data you need. You get your results
+as plain old Python lists and dictionaries. Scrapemark internally utilizes
+`Regular Expressions <http://en.wikipedia.org/wiki/Regular_expression>`_ and is super-fast.
+
+As an example, here is a way you could scrape all the links on the
+`Digg <http://digg.com>`_ homepage in one fell swoop::
+
+	import scrapemark
+
+	print scrapemark.scrape("""
+		{*
+			<div class='news-summary'>
+			<h3><a href='{{ [links].url }}'>{{ [links].title }}</a></h3>
+			<p>{{ [links].description }}</p>
+			<li class='digg-count'>
+			<strong>{{ [links].diggs|int }}</strong>
+			</li>
+			</div>
+		*}
+		""",
+		url='http://digg.com/')
+		
+`See more examples <http://examples.com/>`_
