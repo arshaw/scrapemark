@@ -1,3 +1,4 @@
+README.mkd
 scrapemark.py
 setup.py
 scrapemark.egg-info/PKG-INFO
