@@ -1,5 +1,5 @@
 
-*NOTE*: This project is no longer maintained! [more info](http://blog.arshaw.com/1/post/2013/03/reflecting-on-scrapemark.html)
+**NOTE**: This project is no longer maintained! [more info](http://blog.arshaw.com/1/post/2013/03/reflecting-on-scrapemark.html)
 
 # Scrapemark
 
@@ -28,4 +28,4 @@ print scrapemark.scrape("""
 
 - [See more examples &raquo;](EXAMPLES.md)
 - [View the documentation &raquo;](DOCS.md)
-- [Download &raquo;](#)
+- [Download &raquo;](https://github.com/arshaw/scrapemark/releases)
