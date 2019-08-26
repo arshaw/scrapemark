@@ -10,7 +10,7 @@ Internally, ScrapeMark compiles a pattern down to a set of regular expressions, 
 
 ## Module Contents
 
-### `scrapemark.**user_agent`
+### `scrapemark.user_agent`
 
 `"Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.8.1.3) Gecko/20070309 Firefox/2.0.0.3"`
 
